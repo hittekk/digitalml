@@ -1,0 +1,11 @@
+// Resource Post
+
+.resource-post {
+    .single-post-widget {
+        padding-top: rem-calc(130);
+
+        @include breakpoint-small-only {
+            padding-top: rem-calc(80);
+        }
+    }
+}

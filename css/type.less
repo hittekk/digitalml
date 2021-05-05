@@ -1,0 +1,43 @@
+@primary-font: 'Montserrat Regular';
+@secondary-font: 'Montserrat Thin';
+/*@button-font: 'Poppins';*/
+@primary-font-bold: 'Montserrat Bold';
+@primary-font-semibold: 'Montserrat SemiBold';
+@primary-font-medium: 'Montserrat Medium';
+@primary-font-light: 'Montserrat Light';
+/*@secondary-font-bold: 'Lora Bold';*/
+/*@secondary-font-italic: 'Lora Italic';
+@secondary-font-bolditalic: 'Lora BoldItalic';*/
+
+@primary-line-height: 20px;
+
+/**
+ * Setup global defaults for consistency
+ */
+.global-typography(@fzsm, @fz, @fzmd, @fzlg, @fzxlg, @fz2xlg, @fz3xlg) {
+    html, body, a {
+        font-family: @primary-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: @fz;
+        line-height: @primary-line-height;
+    }
+    // todo: h1-h6
+}
+
+
+// small devices (phones, less than 768px)
+.global-typography(14px,16px,16px,22px,28px,28px,44px);
+
+// medium screens (tablets, less than 1024px)
+@media (min-width: @screen-sm-min) {
+  .global-typography(14px,16px,20px,22px,34px,28px,60px);
+}
+
+// large monitors (desktops, less than 1400px)
+@media (min-width: @screen-md-min) {
+  .global-typography(14px,16px,20px,22px,34px,44px,60px);
+}
+
+/* extra large monitors (large desktops, 1400px and up) */
+@media (min-width: @screen-lg-min) {
+  .global-typography(14px,16px,20px,22px,34px,44px,88px);
+}

@@ -1,0 +1,365 @@
+.resources__wrapper {
+	padding: rem-calc(125) 0;
+
+    @include breakpoint-small-only {
+        padding: rem-calc(64) 0;
+    }
+}
+
+.resources-cards {
+    padding: rem-calc(50) 0;
+}
+
+.resources-card {
+    margin-bottom: rem-calc(46);
+    
+    &__wrapper {
+        background: $gray-bg-medium;
+        border-radius: rem-calc(6);
+        height: rem-calc(504);
+        @include flex(column, nowrap);
+
+        &:hover {
+            text-decoration: none;
+            @include box-shadow-light;
+        }
+
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    &__header {
+        background: $gray-bg-light;
+        border-radius: rem-calc(6) rem-calc(6) 0 0;
+        flex: 0 0 auto;
+        height: rem-calc(200);
+        @include cover(center, center);
+    }
+
+    &__body {
+        flex: 0 0 auto;
+        height: rem-calc(244);
+        padding: rem-calc(30);
+    }
+
+    &__title {
+        color: $blue-font-dark;
+        letter-spacing: rem-calc(-.5);
+        line-height: rem-calc(29);
+        margin-bottom: 0;
+        text-transform: none;
+        @include montserrat-bold(24);
+    }
+
+    &__subtitle {
+        color: $blue-font-light;
+        line-height: rem-calc(22);
+        margin-bottom: 0;
+        margin-top: rem-calc(16);
+        @include montserrat(18);
+    }
+
+    &__footer {
+        flex: 0 0 auto;
+        height: rem-calc(60);
+        padding: 0 rem-calc(30);
+        width: 100%;
+        @include align-self-bottom;
+    }
+
+    &__type {
+        background: $gray-dark;
+        border-radius: rem-calc(2);
+        color: $white;
+        display: inline-block;
+        line-height: rem-calc(18);
+        margin-bottom: 0;
+        padding: rem-calc(5) rem-calc(9);
+        text-transform: uppercase;
+        @include montserrat-semi-bold(14);
+
+        &--articles {
+            background: $articles;
+        }
+
+        &--product-sheet {
+            background: $product-sheet;
+        }
+
+        &--report {
+            background: $report;
+        }
+
+        &--video {
+            background: $video;
+        }
+
+        &--webinar {
+            background: $webinar;
+        }
+
+        &--whitepaper {
+            background: $whitepaper;
+        }
+    }
+}
+
+// Search Results
+
+.search-results {
+    padding: rem-calc(54) 0;
+    
+    &__row {
+        @include flex(row, nowrap);
+        @include align-center;
+
+        &:not(:last-of-type) {
+            margin-bottom: rem-calc(24);
+        }
+    }
+
+    &__no-results {
+        color: $blue-font-dark;
+        letter-spacing: rem-calc(-.5);
+        line-height: rem-calc(29);
+        margin-bottom: 0;
+        text-transform: capitalize;
+        @include montserrat-extra-bold(36);
+    }
+}
+
+.search-item {
+    &__wrapper {
+        border-bottom: rem-calc(2) solid $gray-border-light;
+        cursor: pointer;
+        display: block;
+        padding: rem-calc(0) rem-calc(20) rem-calc(26);
+
+        @include flex(row, nowrap);
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__icon {
+        flex: 0 0 auto;
+        height: rem-calc(50);
+        width: rem-calc(50);
+
+        &--image {
+            height: 100%;
+        }
+    }
+
+    &__content {
+        margin-left: rem-calc(12);
+    }
+
+    &__title {
+        color: $blue-font-dark;
+        flex: 0 0 auto;
+        letter-spacing: rem-calc(-.37);
+        line-height: rem-calc(22);
+        margin-bottom: rem-calc(8);
+        text-transform: none;
+        @include montserrat-bold(18);
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__subtitle {
+        color: $blue-font-light;
+        letter-spacing: rem-calc(0);
+        line-height: rem-calc(22);
+        margin-bottom: rem-calc(12);
+        @include montserrat(18);
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__type {
+        background: $gray-dark;
+        border-radius: rem-calc(2);
+        color: $white;
+        display: inline-block;
+        line-height: rem-calc(18);
+        margin-bottom: 0;
+        padding: rem-calc(5) rem-calc(9);
+        text-transform: uppercase;
+        @include montserrat-semi-bold(14);
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &--articles {
+            background: $articles;
+        }
+
+        &--product-sheet {
+            background: $product-sheet;
+        }
+
+        &--report {
+            background: $report;
+        }
+
+        &--video {
+            background: $video;
+        }
+
+        &--webinar {
+            background: $webinar;
+        }
+
+        &--whitepaper {
+            background: $whitepaper;
+        }
+    }
+}
+
+// Section 6
+
+.resources {
+    .section-6 {
+        @include breakpoint-small-only {
+            padding-top: rem-calc(140);
+
+            h2 {
+                letter-spacing: rem-calc(-.54);
+                line-height: rem-calc(34);
+                @include montserrat-extra-bold(28);
+            }
+        }
+
+        .lead-image {
+            @include breakpoint-small-only {
+                width: rem-calc(227);
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .grid-noGutter {
+            @include breakpoint-small-only {
+                @include flex(row, wrap);
+
+            }
+
+            .col {
+                @include breakpoint-small-only {
+                    flex: 0 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+
+        .subscribe-prompt {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                @include montserrat-semi-bold(18);
+            }
+        }
+
+        .subscribe-form-new {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                padding: 0 rem-calc(15);
+                @include montserrat-semi-bold(18);
+            }
+
+            .subscribe-frame-pardot {
+                @include breakpoint-small-only {
+                    width: 100%;
+                }
+            }
+        }
+
+        .action-prompt {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                @include montserrat-semi-bold(18);
+            }
+        }
+    }
+}
+
+.section-6 {
+    &.bootstrap-3 {
+        @include breakpoint-small-only {
+            padding-top: rem-calc(140);
+    
+            h2 {
+                letter-spacing: rem-calc(-.54);
+                line-height: rem-calc(34);
+                @include montserrat-extra-bold(28);
+            }
+        }
+    
+        .lead-image {
+            @include breakpoint-small-only {
+                width: rem-calc(227);
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    
+        .grid-noGutter {
+            @include breakpoint-small-only {
+                @include flex(row, wrap);
+    
+            }
+    
+            .col {
+                @include breakpoint-small-only {
+                    flex: 0 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    
+        .subscribe-prompt {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                @include montserrat-semi-bold(18);
+            }
+        }
+    
+        .subscribe-form-new {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                padding: 0 rem-calc(15);
+                @include montserrat-semi-bold(18);
+            }
+    
+            .subscribe-frame-pardot {
+                @include breakpoint-small-only {
+                    width: 100%;
+                }
+            }
+        }
+    
+        .action-prompt {
+            @include breakpoint-small-only {
+                letter-spacing: rem-calc(-.37);
+                line-height: rem-calc(28);
+                @include montserrat-semi-bold(18);
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="206px" height="58px" viewBox="0 0 206 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>gradient-IT_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="23.0314556%" y1="10.3669819%" x2="83.2236842%" y2="91.3394326%" id="linearGradient-1">
+            <stop stop-color="#028479" stop-opacity="0.930451766" offset="0%"></stop>
+            <stop stop-color="#08BFB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop---1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="digitalml---Homepage" transform="translate(-912.000000, -1085.000000)" fill="url(#linearGradient-1)">
+            <g id="02---Business-IT" transform="translate(258.000000, 1061.000000)">
+                <g id="IT" transform="translate(654.000000, 24.000000)">
+                    <g id="IT-Titles">
+                        <rect id="gradient-IT_background" x="0" y="0" width="206" height="58"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

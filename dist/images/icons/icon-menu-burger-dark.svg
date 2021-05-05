@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="13px" viewBox="0 0 22 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0E123C23-DDA4-4FC4-99D3-747812C6FEDC</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.058824 0 0 0 0 0.094118 0 0 0 0 0.223529 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Subpages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v4.2_mobile-resources_index-1" transform="translate(-326.000000, -92.000000)">
+            <g id="page" transform="translate(0.000000, 1.000000)"></g>
+            <g id="title-bar" transform="translate(0.000000, 1.000000)">
+                <rect id="base" fill="#F2F2F5" x="0" y="0" width="375" height="135"></rect>
+                <g filter="url(#filter-1)" id="element/icon/menu-dark-.mobile" stroke-linecap="round">
+                    <g transform="translate(326.000000, 91.000000)">
+                        <line x1="1.5" y1="1.5" x2="20.5" y2="1.5" id="Line" stroke="#FFFFFF" stroke-width="3"></line>
+                        <line x1="1.5" y1="11.5" x2="20.5" y2="11.5" id="Line" stroke="#FFFFFF" stroke-width="3"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

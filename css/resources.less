@@ -1,0 +1,394 @@
+.page-resources {
+    .hero .module-wrap {
+        height: 640px;
+    }
+    @media (max-width: @screen-sm-max) {
+        .hero .module-wrap {
+            height: auto; // 1185px;
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        .hero .module-wrap {
+            height: 589px;
+        }
+    }
+    .hero .module-wrap .module.image-module {
+        background-image: url(../images/background-hero-resources-1x.png);
+        background-size: cover;
+        background-position: center;
+
+        .body-wrap {
+            overflow: visible;
+            .body {
+                .text-wrap {
+                    padding-top: 70px;
+
+                    .content {
+                        padding-right: 3rem;
+                        font-family: "Montserrat Light";
+                        h2 {
+                            font-size: @font-size-2xlarge;
+                            font-family: "Montserrat Light";
+                        }
+                        h3 {
+                            font-size: 20px;
+                            font-weight: @regular;
+                            font-family: "Montserrat Light";
+                            margin-bottom: 2rem;
+                            color: #D8D8D8;
+                        }
+                        p {
+                            font-size: @font-size-large;
+                            line-height: 1.75;
+                            font-family: "Montserrat Light";
+                        }
+                        a.gated-content {
+                            margin-top: 1rem;
+                            font-family: "Montserrat Light";
+                        }
+                    }
+                }
+
+                .icon-wrap {
+                    .card-module-wrap {
+                        position: relative;
+                        bottom: -70px;
+
+                        .shadow {
+                            position: absolute;
+                            width: 86%;
+                            height: 80%;
+                            bottom: 12px;
+                            left: 8%;
+                            z-index: -1;
+                            margin: 0 auto;
+                            border-radius: 6px;
+                            box-shadow: 0 22px 24px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .image-module {
+                            background-image: none;
+                            background-color: white;
+                            border-radius: 6px;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                            height: 545px;
+                            max-width: 446px;
+
+                            .header {
+                                .icon {
+                                    background-image: url('../images/icon_chicago.svg');
+                                    background-size: cover;
+                                    width: 130px;
+                                    position: relative;
+                                    height: 133px;
+                                    margin: 30px auto 16px;
+                                }
+                            }
+
+                            .body {
+                                top: 0;
+                                transform: none;
+                                -webkit-transform: none;
+                                max-width: 100%;
+                                padding: 10px 25px 20px;
+                                width: 100%;
+                                color: #4A4A4A;
+                            }
+
+                            .extra-small,
+                            .big-text,
+                            p {
+                                text-align: center;
+                                display: block;
+                                width: 100%;
+                            }
+
+                            .extra-small {
+                                font-size: @font-size-medium;
+                                line-height: 1.25;
+                                padding-bottom: 8px;
+                            }
+
+                            .big-text {
+                                font-size: 44px;
+                                text-align: center;
+                                line-height: 1.05;
+                                padding-top: 10px;
+                                padding-bottom: 26px;
+                            }
+
+                            p {
+                                color: #9B9B9B;
+                                font-size: @font-size-medium;
+                                line-height: 2;
+                                font-family: "Montserrat Light";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: @screen-sm-max) {
+            .body-wrap {
+                position: relative;
+
+                .body {
+                    top: 0;
+                    width: auto;
+                    transform: none;
+
+                    .text-wrap {
+                        padding-top: 0;
+
+                        .content {
+                            padding-right: 0;
+
+                            a.gated-content {
+                                margin-bottom: 2rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                                display: block;
+                                max-width: 250px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .icon-wrap {
+                        max-height: 100%;
+                        order: 2;
+
+                        .card-module-wrap {
+                            bottom: inherit;
+                            max-width: 446px;
+                            margin-bottom: 2rem;
+
+                            .body-wrap {
+                                position: absolute;
+                            }
+
+                            .image-module {
+                                height: auto;
+                                .body-wrap {
+                                    position: relative;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+            .body-wrap {
+                .body {
+                    width: @body-container-width-sm;
+                    padding: 106px 0 0 0;
+                    margin: auto;
+                }
+            }
+        }
+        @media (min-width: @screen-md-min) {
+            background-image: url(../images/background-hero-resources-2x.png);
+
+            .body-wrap {
+                .body {
+                    .text-wrap {
+                        .content {
+                            h2 {
+                                font-size: 30px;
+                                line-height: 42px;
+                            }
+
+                            h3 {
+                                font-size: 18px;
+                                margin-top: 0;
+                                margin-bottom: 15px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                            }
+
+                            a.gated-content {
+                                margin-top: 13px
+                            }
+                        }
+                    }
+
+                    .icon-wrap {
+                        .card-module-wrap {
+                            .image-module {
+                                height: 512px;
+
+                                .body-wrap {
+                                    .body {
+                                        .big-text {
+                                            padding-bottom: 13px;
+                                            font-size: 40px;
+                                            line-height: 48px;
+                                            padding-top: 0;
+                                        }
+
+                                        p {
+                                            line-height: 24px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-lg-min) {
+            .body-wrap {
+                .body {
+                    .text-wrap {
+                        .content {
+                            h2 {
+                                font-size: 40px;
+                                line-height: 60px;
+                            }
+
+                            h3 {
+                                font-size: 20px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+
+                    .icon-wrap {
+                        .card-module-wrap {
+                            .shadow {
+                                max-width: 446px;
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .resource-image img, .video-embed img.placeholder {
+        max-width: 100%;
+    }
+
+    .articles, .videos, .white-papers, .presentations {
+        padding: 2rem 0 1rem;
+    }
+
+    .articles, .presentations {
+        a {
+            display: block;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h5 {
+            color: initial;
+        }
+    }
+
+    .articles h5 {
+        text-align: left;
+    }
+    @media (max-width: @screen-sm-max) {
+        .articles .col-sm-6:nth-child(odd) {
+            clear: left;
+        }
+    }
+
+    #section-4 {
+        background-color: @off-white;
+
+        .module-wrap {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .module.videos {
+                .media-grid {
+                }
+
+                .media-item {
+                    .title {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-sm-min) {
+            .module-wrap {
+                width: @body-container-width-sm;
+                margin: auto;
+            }
+        }
+        @media (min-width: @screen-md-min) {
+            .module-wrap {
+                width: @body-container-width-md;
+
+                .module.videos {
+                    .media-grid {
+
+                        .media-item {
+
+                            .title {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-lg-min) {
+            .module-wrap {
+                width: @body-container-width-lg;
+            }
+        }
+    }
+
+    .white-papers {
+        padding-bottom: 3rem;
+
+        h5 {
+            font-size: 12px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .resource-image {
+            text-align: center;
+            position: relative;
+            min-height: 176px;
+
+            img {
+                opacity: 1;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+
+                &.dl-thumbnail {
+                    border-radius: 14px 40px 14px 14px;
+                    padding: 5px;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+    .presentations {
+        .gated-content {
+            text-align: center;
+        }
+    }
+}

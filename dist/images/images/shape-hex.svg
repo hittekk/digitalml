@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="481px" height="559px" viewBox="0 0 481 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>API Hero Hex</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="240.765979 7.21290323 475.534452 143.055914 475.534452 414.741935 240.765979 550.584946 5.99750623 414.741935 5.99750623 143.055914"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="469.536945" height="543.372043" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Desktop---1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="digitalml---Homepage" transform="translate(-964.000000, -205.000000)">
+            <g id="01---Hero---API's">
+                <g id="API-Hero-Hex" transform="translate(964.000000, 205.000000)">
+                    <use id="Polygon" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    <path d="M238.944397,143.656989 L7.7967581,275.907636" id="Line-Copy-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(123.370577, 209.782313) scale(-1, 1) translate(-123.370577, -209.782313) "></path>
+                    <path d="M478.844646,143.656989 L247.697007,275.907636" id="Line-Copy-6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M277.684539,430.970968 L476.801746,412.93871" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M277.684539,430.970968 L401.89383,280.871203" id="Line-Copy-10" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M277.684539,430.970968 L6.59725686,414.14086" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M241.699501,542.770968 L241.699501,277.08482" id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+                    <ellipse id="Oval-3" fill="#FFFFFF" cx="241.699501" cy="10.2182796" rx="10.1957606" ry="10.2182796"></ellipse>
+                    <ellipse id="Oval-3-Copy" fill="#FFFFFF" cx="10.1957606" cy="143.656989" rx="10.1957606" ry="10.2182796"></ellipse>
+                    <ellipse id="Oval-3-Copy-3" fill="#FFFFFF" cx="10.1957606" cy="410.534409" rx="10.1957606" ry="10.2182796"></ellipse>
+                    <ellipse id="Oval-3-Copy-23" fill="#FFFFFF" cx="241.699501" cy="274.691398" rx="10.1957606" ry="10.2182796"></ellipse>
+                    <ellipse id="Oval-3-Copy-27" fill="#FFFFFF" cx="241.699501" cy="548.78172" rx="10.1957606" ry="10.2182796"></ellipse>
+                    <ellipse id="Oval-3-Copy-5" fill="#FFFFFF" cx="470.204489" cy="412.337634" rx="9.59600998" ry="9.6172043"></ellipse>
+                    <ellipse id="Oval-3-Copy-6" fill="#FFFFFF" cx="471.40399" cy="146.662366" rx="9.59600998" ry="9.6172043"></ellipse>
+                    <ellipse id="Oval-3-Copy-9" fill="#FFFFFF" cx="203.315461" cy="452.609677" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <path d="M7.7967581,415.343011 L204.514963,452.609677" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M204.514963,453.811828 L240.5,548.78172" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M12.5947631,414.14086 L128.946384,348.022581" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M130.145885,348.022581 L10.1957606,143.656989" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M128.946384,348.022581 L301.674564,281.904301" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <ellipse id="Oval-3-Copy-9" fill="#FFFFFF" cx="129.198254" cy="348.207527" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-21" fill="#FFFFFF" cx="428.821696" cy="360.044086" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-28" fill="#FFFFFF" cx="301.674564" cy="281.904301" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-29" fill="#FFFFFF" cx="277.684539" cy="430.970968" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-22" fill="#FFFFFF" cx="401.233167" cy="278.297849" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-10" fill="#FFFFFF" cx="170.928928" cy="122.01828" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-25" fill="#FFFFFF" cx="317.26808" cy="123.22043" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <ellipse id="Oval-3-Copy-26" fill="#FFFFFF" cx="235.701995" cy="201.360215" rx="4.19825436" ry="4.20752688"></ellipse>
+                    <path d="M8.99625935,143.656989 L170.928928,120.816129" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M170.928928,120.816129 L239.300499,16.2290323" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M170.928928,120.816129 L301.674564,280.702151" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M302.874065,280.702151 L401.233167,278.297849" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M401.233167,278.297849 L428.821696,358.841935" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M428.821696,360.044086 L473.203242,412.93871" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M401.233167,279.5 L474.402743,141.252688" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M318.467581,123.22043 L474.402743,141.252688" id="Line-Copy-7" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M316.068579,123.22043 L236.144177,199.947591" id="Line-Copy-9" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M319.577226,123.709152 L240.350062,9.5702453" id="Line-Copy-8" stroke="#FFFFFF" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

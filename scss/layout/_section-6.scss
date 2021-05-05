@@ -1,0 +1,43 @@
+.section-6 {
+	min-height: rem-calc(585);
+	background-position: bottom;
+	padding-top: rem-calc(140);
+	padding-bottom: rem-calc(140);
+	background-size: cover;
+
+    h2 {
+		color: $white;
+		letter-spacing: rem-calc(-1);
+		line-height: rem-calc(63);
+		text-transform: none;
+		@include montserrat-extra-bold(52);
+    }
+
+	.subscribe-prompt, 
+	.action-prompt {
+		color: $white;
+		letter-spacing: rem-calc(-.38);
+		line-height: rem-calc(29);
+		margin-bottom: rem-calc(20);
+		@include montserrat-semi-bold(24);
+	}
+
+	.lead-image {
+		img {
+			max-height: rem-calc(160);
+			padding: rem-calc(20) rem-calc(20) rem-calc(20) 0;
+		}
+	} 
+
+	.subscribe {
+		[type=text] {
+			width: 100%;
+		}
+	}
+
+	.action-prompt-button {
+		margin-top: rem-calc(20);
+		width: rem-calc(250);
+	}
+}
+

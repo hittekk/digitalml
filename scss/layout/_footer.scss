@@ -1,0 +1,37 @@
+#section-footer {
+	padding-top: rem-calc(45);
+	background-color: #111845;
+}
+
+#section-footer p {
+  color: $white;
+  letter-spacing: 0;
+  line-height: rem-calc(19);
+  margin-bottom: rem-calc(19);
+  @include montserrat(16);
+}
+
+#section-footer p.menu-lead-title {
+	font-weight: 800;
+
+    a {
+        color: $white;
+    }
+}
+
+.footer-nav li {
+	font-weight: normal;
+	padding-left: rem-calc(40) !important;
+}
+
+.footer-copyright {
+	padding-top: rem-calc(30);
+	width: 100%;
+}
+
+.section-footer-inner {
+	border-top: rem-calc(2) solid #3E4965;
+	border-bottom: rem-calc(2) solid #3E4965;
+	padding-top: rem-calc(40);
+	padding-bottom: rem-calc(90);
+}

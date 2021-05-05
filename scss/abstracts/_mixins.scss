@@ -1,0 +1,257 @@
+body {
+    background-color: black;
+}
+
+// Flex Mixins
+
+@mixin flex($direction, $wrap) {
+    display: flex;
+    flex-flow: $direction $wrap;
+}
+
+// justify-content
+
+@mixin align-center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@mixin align-right {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+@mixin align-left {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+@mixin align-justify {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@mixin align-spaced {
+    justify-content: space-around;
+}
+
+// align-items
+
+@mixin align-middle {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin align-bottom {
+    align-items: flex-end;
+}
+
+@mixin align-top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+@mixin align-self-top {
+    align-self: flex-start;
+}
+
+@mixin align-self-middle {
+    align-self: center;
+}
+
+@mixin align-self-bottom {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+// Element Order
+
+@mixin order-2 {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+// -------- //s
+
+// Layout
+
+@mixin position-absolute($left, $top) {
+    left: $left;
+    position: absolute;
+    top: $top;
+    -webkit-transform: translate($left * -1, $top * -1);
+    transform: translate($left * -1, $top * -1);
+}
+
+@mixin absolute($left, $top) {
+    left: $left;
+    position: absolute;
+    top: $top;
+    -webkit-transform: translate($left * -1, $top * -1);
+    transform: translate($left * -1, $top * -1);
+}
+
+@mixin fixed($top, $width, $z-index) {
+    position: fixed;
+    top: rem-calc($top);
+    width: $width;
+    z-index: $z-index;
+}
+
+@mixin sticky($top) {
+    position: sticky;
+    top: rem-calc($top);
+}
+
+@mixin overlay($color, $opacity) {
+    background-color: $color;
+    height: 100%;
+    left: 0;
+    opacity: $opacity;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    transition: all 250ms ease;
+}
+
+@mixin box-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+@mixin box-shadow-light {
+    box-shadow: 0 2px 5px 0 rgba(189, 189, 189, 0.16), 0 2px 10px 0 rgba(177, 177, 177, 0.12);
+}
+
+@mixin card-wrapper($border-radius, $padding) {
+    background: $white;
+    border-radius: rem-calc($border-radius);
+    padding: $padding + rem;
+}
+
+// Backgrounds and Images
+
+@mixin cover($x, $y) {
+    background-position: $x $y;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin contain($x, $y) {
+    background-position: $x $y;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@mixin background-dynamic($x, $y, $width, $height, $content: null) {
+    background-position: $x $y $content;
+    background-repeat: no-repeat;
+    background-size: $width $height $content;
+}
+
+// Embeds
+
+@mixin responsive-embed {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+
+    iframe {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+}
+
+// Lists 
+
+@mixin reset-list {
+    li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+// Fonts
+
+@mixin montserrat($size) {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: rem-calc($size);
+    font-weight: 400;
+}
+
+@mixin montserrat-light($size) {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: rem-calc($size);
+    font-weight: 300;
+}
+
+@mixin montserrat-semi-bold($size) {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: rem-calc($size);
+    font-weight: 600;
+}
+
+@mixin montserrat-bold($size) {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: rem-calc($size);
+    font-weight: 700;
+}
+
+@mixin montserrat-extra-bold($size) {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: rem-calc($size);
+    font-weight: 800;
+}
+
+// Breakpoints
+
+@mixin breakpoint-small-only {
+    @media screen and (max-width: 39.9375em) {
+        @content;
+    }
+}
+
+@mixin breakpoint-medium {
+    @media screen and (min-width: 40em) {
+        @content;
+    }
+}
+
+@mixin breakpoint-medium-only {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        @content;
+    }
+}
+
+@mixin breakpoint-large {
+    @media screen and (min-width: 64em) {
+        @content;
+    }
+}
+
+@mixin breakpoint-large-only {
+    @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+        @content;
+    }
+}

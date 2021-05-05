@@ -1,0 +1,184 @@
+.page-about-us {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat Light";
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-family: "Montserrat Light";
+  }
+  .content {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Montserrat Light";
+  }
+  .body-wrap {
+    position: relative;
+  }
+  .image-module {
+    background-image: url(../images/background-hp-5-1x.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .body-wrap {
+
+      .body {
+        top: 0;
+        transform: none;
+          -webkit-transform: none;
+        padding: 106px 0 4rem;
+      }
+    }
+  }
+  @media (max-width: @screen-xs-max) {
+    .mobile-padding {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .leadership {
+    .nav-tabs {
+      border: 0;
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+
+      li {
+        border: 0;
+        border-bottom: 4px solid #ccc;
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 0;
+          border-radius: 0 0 0;
+          color: #444;
+          p {
+            color: #999;
+          }
+        }
+        img {
+          max-width: 100%;
+          width: 160px;
+        }
+        h4 {
+          margin-bottom: 4px;
+          font-size: 20px;
+        }
+        h4, p {
+          font-family: "Montserrat Light";
+        }
+        &.active {
+          border-bottom: 4px solid #00859B;
+          a {
+            border: 0;
+          }
+        }
+        &:active {
+          border: 0;
+          border-bottom: 4px solid #00859B;
+        }
+      }
+      /*@media (max-width: @screen-xs-max) {
+        li {
+          max-width: 48%;
+          float: left;
+          &:nth-child(odd) {
+            clear: left;
+            margin-right: 10px;
+          }
+        }
+      }*/
+    }
+    .tab-content {
+      padding-bottom: 5rem;
+    }
+    @media (max-width: @screen-xs-max) {
+      .tab-content {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+  .locations {
+    background-image: url(../images/background-locations.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    .body {
+      padding-bottom: 5rem;
+    }
+
+    h3 {
+      color: white;
+      text-align: center;
+      padding: 3rem 0 4rem;
+    }
+    .location {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.75rem;
+      line-height: 1.35;
+      margin-bottom: 1rem;
+    }
+    .location-marker {
+      background-image: url(../images/icon_location.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position-x: 81%;
+      width: 120px;
+      height: 120px;
+      color: white;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+    .location-marker, p {
+      flex: 1;
+    }
+    p > a {
+      color: white;
+      font-size: inherit;
+      font-family: @primary-font-light;
+    }
+  }
+  .about-contact-us-form {
+    form.form p label {
+      color: white;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  h3.contact-us,
+  h3.quick-facts {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Montserrat Light";
+  }
+  h3.contact-us {
+    margin-top: 2.5rem;
+  }
+  h3.quick-facts {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  ul.quick-links {
+    padding-left: 15px;
+
+    li {
+      font-family: "Montserrat Light";
+      margin-bottom: 10px;
+      font-size: 0.8em;
+      line-height: 1.35;
+    }
+  }
+    @media (min-width: @screen-lg-min) {
+        .locations {
+            background-image: url(../images/background-locations-3x.png);
+        }
+    }
+}

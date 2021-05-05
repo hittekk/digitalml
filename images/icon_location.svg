@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_location</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="60" cy="60" rx="60" ry="60"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="120" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Desktop---1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="digitalml---About-Us" transform="translate(-359.000000, -2442.000000)" stroke="#FFFFFF">
+            <g id="Locations" transform="translate(0.000000, 2205.000000)">
+                <g id="Location" transform="translate(359.000000, 72.000000)">
+                    <g id="icon_location" transform="translate(0.000000, 165.000000)">
+                        <path d="M59.9633333,26 C73.2088446,26 83.9266667,36.641031 83.9266667,49.7917228 C83.9266667,54.5300274 82.5222771,58.9216134 80.1247917,62.6312189 L59.9633333,93.829305 L39.801875,62.6312189 C37.4043896,58.9215219 36,54.5300274 36,49.7917228 C36,36.641031 46.717822,26 59.9633333,26 Z M59.9633333,39.7259939 C65.5734907,39.7259939 70.1016667,44.2217145 70.1016667,49.7917228 C70.1016667,55.3616397 65.5734907,59.8574517 59.9633333,59.8574517 C54.353176,59.8574517 49.825,55.3616397 49.825,49.7917228 C49.825,44.2217145 54.353176,39.7259939 59.9633333,39.7259939 Z" id="Shape"></path>
+                        <use id="Oval" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

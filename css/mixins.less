@@ -1,0 +1,43 @@
+// TODO: define SASS mixins
+.transition(@args) {
+    transition: @args;
+    -webkit-transition: @args;
+}
+
+.expand() {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.aspect-ratio2(@aspectRatio: 1) {
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100% * @aspectRatio;
+    }
+
+    > div:first-child {
+        position: absolute;
+        .expand();
+    }
+}
+
+.calc(@prop; @val) {
+    @{prop}: calc(~'@{val}');
+    @{prop}: -moz-calc(~'@{val}');
+    @{prop}: -webkit-calc(~'@{val}');
+    @{prop}: -o-calc(~'@{val}');
+}
+
+.box-shadow(@args) {
+    -webkit-box-shadow: @args;
+    -moz-box-shadow: @args;
+    box-shadow: @args;
+}

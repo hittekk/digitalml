@@ -1,0 +1,706 @@
+.hero {
+    .module-wrap {
+        height: 600px;
+
+        .module {
+            height: 100%;
+
+            &.image-module {
+/** override per specific use...
+                .image-wrap {
+                    background-image: url(../images/_ph/ph-homehero-bg.png);
+                    .overlay-wrap {
+                        background-color: @dark-orange-rgba;
+                    }
+                }
+*/
+
+                .body-wrap {
+                    .body {
+                        padding-top: @digitalml-navbar-height;
+
+/** override per specific use...
+                        .inset-icon {
+                            background-image: url(../images/shape-hex-2x.png);
+                        }
+*/
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        .module-wrap {
+            height: 663px;
+
+            .module {
+                &.image-module {
+                    .body-wrap {
+                        .body {
+                            padding-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-lg-min) {
+        .module-wrap {
+            height: 763px;
+        }
+    }
+}
+
+.card-module {
+    color: @white;
+    position: relative;
+    display: block;
+
+    .module-wrap {
+        .card-module-wrap {
+            .module {
+                height: 100%;
+
+                // container for image/color effect
+                .image-wrap {
+                    padding: 14px 7px;
+                    display: block;
+                    position: relative;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                    height: 100%;
+                    z-index: @z-hero-background-layer;
+
+                    .overlay-wrap {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+                }
+
+                .body-wrap {
+                    margin: 15px 10px;
+                    width: 93%;
+
+                    > div {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    .header {
+                        margin-top: 24px;
+                        margin-bottom: 5px;
+
+                        .icon {
+                            width: 60px;
+                            height: 51px;
+                        }
+                    }
+
+                    .body {
+                        width: 100%;
+                        top: 0;
+                        display: block;
+                        transform: none;
+
+                        .title {
+                            font-size: 24px;
+                            line-height: 34px;
+                            margin-bottom: 0;
+                        }
+
+                        .subtitle {
+                            margin-bottom: 5px;
+                        }
+
+                        .text {
+                            font-family: @primary-font-light;
+                            font-size: 12px;
+                            line-height: 22px;
+                            position: relative;
+                            padding-bottom: 11px;
+
+                            &:after {
+                                content: '';
+                                height: 1px;
+                                width: 50%;
+                                background: @white-30-percent-rgba;
+                                position: absolute;
+                                left: 25%;
+                                bottom: -1px;
+                            }
+                        }
+
+                        .bottom-text-wrap {
+                            height: 120px;
+                            margin-top: 12px;
+                            display: block;
+                            overflow: hidden;
+                            padding-left: 15px !important;
+
+                            .text-item {
+                                line-height: 15px;
+                                padding-bottom: 3px;
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+
+                .caption-wrap {
+                    position: absolute;
+                    //top: 301px;
+                    bottom: 12%;
+                    left: 11px;
+                    z-index: @z-text-foreground-layer;
+                    width: 97%;
+                    height: 65px;
+
+                    .caption {
+                        transform: translateY(-50%);
+                        top: 50%;
+                        position: relative;
+
+                        a {
+                            margin: auto !important;
+                            display: block;
+                            padding: 13px;
+                            width: 50%;
+                            border-color: @medium-grey;
+
+                            .btn-text {
+                                color: @medium-grey;
+                                font-size:  16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: @screen-android-max) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        .body {
+                            .subtitle {
+                                font-size: 13px;
+                                margin-bottom: 0;
+                                margin-top: -5px;
+                            }
+
+                            .text {
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    .caption-wrap {
+                        bottom: 10%;
+                    }
+                }
+            }
+        }
+
+    }
+    @media (max-width: @screen-iphone-max) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        .body {
+                            .text {
+                                &:after {
+                                    display: none;
+                                }
+                            }
+
+                            .bottom-text-wrap {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 340px) and (max-width: 374px) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        .header {
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-iphone-max) and (max-width: @screen-xs-max) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        .header {
+                            margin-top: 33px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-sm-min) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        top: 16px;
+                        left: 11px;
+                        width: 343px;
+                        height: 458px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .body-wrap {
+                        .body {
+                            .text {
+                                font-size: 11px;
+                                line-height: 19px
+                            }
+
+                            .bottom-text-wrap .text-item {
+                                font-size: 10px
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        .module-wrap {
+            display: flex;
+            flex-wrap: wrap;
+
+            .card-module-wrap {
+                flex-basis: 50%;
+
+                .module {
+                    .image-wrap {
+                        padding: 22px 13px;
+                    }
+
+                    .body-wrap {
+                        top: 22px;
+                        left: 13px;
+                        width: 437px;
+                        height: 581px;
+
+                        > div {
+                            padding-left: 25px;
+                            padding-right: 27px;
+                        }
+
+                        .header {
+                            margin-top: 38px;
+                            margin-bottom: 13px;
+
+                            .icon {
+                                width: 89px;
+                                height: 77px;
+                            }
+                        }
+
+                        .body {
+                            .title {
+                                font-size: 25px;
+                                line-height: 31px;
+                                margin-bottom: 4px;
+                            }
+
+                            .subtitle {
+                                margin-bottom: 9px;
+                            }
+
+                            .text {
+                                font-size: 12px;
+                                line-height: 22px;
+                                padding-bottom: 14px;
+                            }
+
+                            .bottom-text-wrap {
+                                height: 237px;
+                                margin-top: 18px;
+                                padding-left: 20px !important;
+
+                                .text-item {
+                                    font-size: 11px;
+                                    line-height: 15px;
+                                    padding-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .caption-wrap {
+                        top: 581px;
+                        left: 13px;
+                        width: 455px;
+                        height: 122px;
+
+                        .caption {
+                            a {
+                                padding: 15px;
+
+                                .btn-text {
+                                    font-size:  14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: @screen-lg-min) {
+        .module-wrap {
+            .card-module-wrap {
+                .module {
+                    .image-wrap {
+                        padding: 30px 18px;
+                    }
+
+                    .body-wrap {
+                        top: 30px;
+                        left: 18px;
+                        width: 648px;
+                        height: 830px;
+                        .header {
+                            margin-top: 20px;
+                            margin-bottom: 19px;
+
+                            .icon {
+                                width: 128px;
+                                height: 110px;
+                            }
+                        }
+
+                        > div {
+                            padding-left: 35px;
+                            padding-right: 35px;
+                        }
+
+                        .body {
+                            .title {
+                                font-size: 36px;
+                                line-height: 44px;
+                                margin-bottom: 5px;
+                            }
+
+                            .subtitle {
+                                margin-bottom: 13px;
+                            }
+
+                            .text {
+                                font-size: 18px;
+                                line-height: 37px;
+                                padding-bottom: 12px;
+                            }
+
+                            .bottom-text-wrap {
+                                height: 318px;
+                                margin-top: 20px;
+
+                                .text-item {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+                    }
+
+                    .caption-wrap {
+                        top: 829px;
+                        left: 18px;
+                        width: 648px;
+                        height: 174px;
+
+                        .caption {
+                            a {
+                                padding: 20px;
+
+                                .btn-text {
+                                    font-size:  24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-template-platform-page {
+    #section-1 {
+        .module-wrap {
+            .module {
+                &.image-module {
+                    .image-wrap {
+                        background-image: url(../images/background-hero-platform-1x.png);
+                        .overlay-wrap {
+                            //background-color: @dark-blue-rgba;
+                        }
+                    }
+                    .body-wrap {
+                        .body {
+                            .text-wrap {
+                                .big-text {
+                                    text-align: center;
+                                }
+                            }
+
+                            .icon-wrap {
+                                .inset-icon {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-image: url(../images/shape-gears-1x.png);
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: @screen-sm-max) {
+            .module-wrap {
+                .module {
+                    &.image-module {
+                        .body-wrap {
+                            .body {
+                                .icon-wrap {
+                                    height: 70%;
+                                    width: 100%;
+                                    max-height: none;
+
+                                    .inset-icon {
+                                        background-position: top center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+            .module-wrap {
+                .module {
+                    &.image-module {
+                        .body-wrap {
+                            .body {
+                                height: 100%;
+
+                                .text-wrap {
+                                    display: flex;
+                                    align-items: center;
+                                    flex-basis: 38%;
+                                    .big-text {
+                                        text-align: left;
+                                    }
+                                }
+                                .icon-wrap {
+                                    flex-basis: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-md-min) {
+            .module-wrap {
+                .module {
+                    &.image-module {
+                        .body-wrap {
+                            .body {
+                                .icon-wrap {
+                                    height: 663px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-lg-min) {
+            .module-wrap {
+                .module {
+                    &.image-module {
+                        .image-wrap {
+                            background-image: url(../images/background-hero-platform-2x.png);
+                        }
+                        .body-wrap {
+                            .body {
+                                .text-wrap {
+                                    display: flex;
+                                    align-items: center;
+                                    flex-basis: 38%;
+
+                                    .big-text {
+                                        text-align: left;
+                                    }
+                                }
+
+                                .icon-wrap {
+                                    height: 529px;
+                                    flex-basis: 50%;
+
+                                    .inset-icon {
+                                        width: 704px;
+                                        height: 529px;
+                                        background-image: url(../images/shape-gears-2x.png);
+                                        background-size: contain;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    #section-2 {
+        .module-wrap {
+            margin-top: @section-margin-top-xs;
+
+            .card-module-wrap {
+                .aspect-ratio2(1105 / 685);
+                max-width: 380px;
+                margin: 0 auto 30px auto;
+//                height: 1105px;
+
+                .module {
+                    .body-wrap {
+                        .header {
+                            .icon {
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                            }
+                        }
+                    }
+                }
+
+                &.plan {
+                    .module {
+                        &.image-module {
+                            .image-wrap {
+                                background-image: url(../images/background-card-plan-1x.png);
+                            }
+
+                            .body-wrap {
+                                .header {
+                                    .icon {
+                                        background-image: url(../images/icon-plan.svg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.design {
+                    .module {
+                        &.image-module {
+                            .image-wrap {
+                                background-image: url(../images/background-card-design-1x.png);
+                            }
+
+                            .body-wrap {
+                                .header {
+                                    .icon {
+                                        background-image: url(../images/icon-design.svg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.build {
+                    .module {
+                        &.image-module {
+                            .image-wrap {
+                                background-image: url(../images/background-card-build-1x.png);
+                            }
+
+                            .body-wrap {
+                                .header {
+                                    .icon {
+                                        background-image: url(../images/icon-build.svg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.run {
+                    .module {
+                        &.image-module {
+                            .image-wrap {
+                                background-image: url(../images/background-card-run-1x.png);
+                            }
+
+                            .body-wrap {
+                                .header {
+                                    .icon {
+                                        background-image: url(../images/icon-run.svg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: @screen-md-min) {
+            .module-wrap {
+                margin-top: @section-margin-top-md;
+
+                .card-module-wrap {
+                    max-width: 685px;
+                    margin: 0 auto 30px auto;
+                }
+            }
+        }
+        @media (min-width: @screen-lg-min) {
+            .module-wrap {
+                margin-top: @section-margin-top-lg;
+
+                .card-module-wrap {
+                    .aspect-ratio2(1105 / 748);
+                    max-width: 748px;
+                    margin: 0 auto 30px auto;
+                }
+            }
+        }
+    }
+}

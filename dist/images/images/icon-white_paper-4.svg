@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="176px" height="224px" viewBox="0 0 176 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-white_paper@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,9.94675268 C0,4.41867415 4.46992697,-0.0345668807 9.99049507,0.000202218793 C9.99049507,0.000202218793 123.037847,0.712185945 123.037853,0.712185945 C123.037859,0.712185945 158,35.4632739 158,35.4632731 C158,35.4632723 158,196.019594 158,196.019594 C158,201.542992 153.525878,206.020591 147.996527,206.020591 L10.0034725,206.020591 C4.4787072,206.020591 0,201.548762 0,196.011119 L0,9.94675268 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix><!-- 0 0 0 0.2 0 -->
+        </filter>
+        <circle id="path-3" cx="79" cy="103" r="40"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="none"><!-- white-->
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Desktop---1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="digitalml---Resources" transform="translate(-1300.000000, -2004.000000)">
+            <g id="White-Papers" transform="translate(120.000000, 1952.000000)">
+                <g id="White-Paper-Icons" transform="translate(0.000000, 59.000000)">
+                    <g id="icon-white_paper" transform="translate(1189.000000, 0.000000)">
+                        <use id="Oval" stroke="#EA5B0C" fill="white" fill-opacity="1" mask="url(#mask-4)" xlink:href="#path-3"></use>
+
+                        <path d="M76.9471466,89.8579397 C77.4704147,89.3282192 78.1963198,89 78.997112,89 C79.8246389,89 80.5707705,89.3485482 81.0967523,89.9074803 C81.2225704,90.036 81.3338817,90.1734459 81.4307219,90.3177528 L89.1569958,98.0440267 C90.2711774,99.1582083 90.2774159,100.990701 89.1510168,102.1171 C88.0269097,103.241207 86.2010409,103.246176 85.0779439,102.123079 L81.8814373,98.9265721 L81.8814373,114.869234 C81.8814373,116.464859 80.5868395,117.758368 78.997112,117.758368 C77.4041432,117.758368 76.1127868,116.466812 76.1127868,114.869234 L76.1127868,98.9265721 L72.9162801,102.123079 C71.7931832,103.246176 69.9673143,103.241207 68.8432072,102.1171 C67.7168082,100.990701 67.7230467,99.1582083 68.8372282,98.0440267 L76.5635021,90.3177528 C76.6659104,90.1651487 76.7845016,90.0202173 76.919318,89.8854008 C76.9285472,89.8761717 76.9378236,89.867018 76.9471466,89.8579397 Z" id="up" fill="#EA5B0C" transform="translate(78.997112, 103.379184) scale(1, -1) translate(-78.997112, -103.379184) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

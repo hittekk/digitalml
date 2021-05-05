@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>documentwp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Desktop---1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="digitalml---Resources" transform="translate(-159.000000, -2074.000000)">
+            <g id="White-Papers" transform="translate(120.000000, 1952.000000)">
+                <g id="White-Paper-Icons" transform="translate(39.000000, 59.000000)">
+                    <g id="document" transform="translate(0.000000, 63.000000)">
+                        <use id="Oval" stroke="#EA5B0C" mask="url(#mask-2)" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <path d="M37.9471466,26.8579397 C38.4704147,26.3282192 39.1963198,26 39.997112,26 C40.8246389,26 41.5707705,26.3485482 42.0967523,26.9074803 C42.2225704,27.036 42.3338817,27.1734459 42.4307219,27.3177528 L50.1569958,35.0440267 C51.2711774,36.1582083 51.2774159,37.9907006 50.1510168,39.1170997 C49.0269097,40.2412068 47.2010409,40.2461756 46.0779439,39.1230787 L42.8814373,35.9265721 L42.8814373,51.8692338 C42.8814373,53.4648587 41.5868395,54.7583682 39.997112,54.7583682 C38.4041432,54.7583682 37.1127868,53.4668121 37.1127868,51.8692338 L37.1127868,35.9265721 L33.9162801,39.1230787 C32.7931832,40.2461756 30.9673143,40.2412068 29.8432072,39.1170997 C28.7168082,37.9907006 28.7230467,36.1582083 29.8372282,35.0440267 L37.5635021,27.3177528 C37.6659104,27.1651487 37.7845016,27.0202173 37.919318,26.8854008 C37.9285472,26.8761717 37.9378236,26.867018 37.9471466,26.8579397 Z" id="up" fill="#EA5B0C" transform="translate(39.997112, 40.379184) scale(1, -1) translate(-39.997112, -40.379184) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
